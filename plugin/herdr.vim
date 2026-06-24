@@ -24,7 +24,7 @@ function! s:GetVisualSelection()
         call add(filtered_lines, line)
       endif
     endfor
-    return join(filtered_lines, "\n") . "\n"
+    return join(filtered_lines, "\n") . "\n\n"
   endif
 
   " Return the visual selection with newline appended.
